@@ -1,0 +1,16 @@
+# Empêche d'envoyer l'environnement virtuel sur GitHub
+venv/
+ENV/
+env/
+
+# Empêche d'envoyer les fichiers de cache Python (très important)
+**/__pycache__/
+*.py[cod]
+
+# Fichiers de configuration des éditeurs
+.vscode/
+.idea/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
