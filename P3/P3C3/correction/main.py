@@ -29,11 +29,5 @@ def load(data_to_load, filename="output.csv"):
             writer.writerow(data)
 
 
-def main():
-    data_to_transform = extract("input.csv")
-    data_to_load = transform(data_to_transform)
-    load(data_to_load, "output.csv")
-
-
 if __name__ == "__main__":
     main()
